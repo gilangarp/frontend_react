@@ -1,16 +1,12 @@
-import Header from "../components/Header";
 import aboutImage from "../assets/image/1ff108caf42e05aafc2d71749bf4d116.png";
 import heroImage from "../assets/image/47fdff79cb40a5f1a62aef1f4cd64c3e.jpeg";
 import productImage from "../assets/image/a63f096d3edcb57b0bc937039acae071.png";
 import mapsImage from "../assets/image/Huge Global.png";
 import avatarImage from "../assets/image/70840a4caeb335701029d52bbb650fae.jpeg";
-import { Outlet } from "react-router-dom";
 
 export default function Home() {
   return (
     <>
-      <Header/>
-      <Outlet/>
       <main>
       {/* hero */}
       <section className="min-h-screen grid grid-cols-1 grid-rows-2 lg:grid-cols-2 lg:grid-rows-1">
